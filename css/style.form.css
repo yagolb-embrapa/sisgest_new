@@ -1,0 +1,243 @@
+@media screen {
+    .dontPrint{
+        display:normal;
+        text-align='center';
+    }
+    tr.dontShow{
+        display:none;
+    }
+}
+
+@media print{
+    .dontPrint{
+        display:none;
+    }
+    tr.dontShow{
+        display=block;
+    }
+}
+
+table.formulario{		
+	border:1px solid black;
+	/*background: #F5FAFA;*/	
+	background: #d5d5d5;
+	border-collapse: collapse; 		
+}
+
+.formulario th {
+	font: bold 12px Verdana;
+	color: #4f6b72;		
+	text-align: left;
+	padding: 3px 6px 3px 12px;	
+	background: #CAE8EA;	
+}
+
+.formulario td {		
+	padding: 2px 2px 2px 8px;
+	color: black;
+	margin: 0px;			
+}
+
+.formulario span{
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+	/*font-weight: bold;*/		
+}
+
+
+table.formPrintSmall{
+	border:1px solid black;
+	/*background: #F5FAFA;*/	
+	background: #d5d5d5;
+	border-collapse: collapse; 		
+	page-break-after: always; 
+}
+
+.formPrintSmall th {
+	font: bold 12px Verdana;
+	color: #4f6b72;
+	text-align: left;
+	padding: 3px 6px 3px 12px;
+	background: #CAE8EA;
+}
+
+.formPrintSmall td {
+	padding: 1px 1px 1px 5px;
+	color: black;
+	margin: 0px;
+}
+
+.formPrintSmall span{
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	/*font-weight: bold;*/
+}
+
+table.formPrint{		
+	border:1px solid black;
+	background: #d5d5d5;
+}
+
+.formPrint th {
+	font: bold 12px Verdana;
+	color: #4f6b72;		
+	text-align: left;
+	padding: 3px 6px 3px 12px;
+	background: #CAE8EA;	
+}
+
+.formPrint td {		
+	padding: 2px 2px 2px 8px;
+	color: black;			
+}
+
+.formPrint span{
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+	/*font-weight: bold;*/		
+}
+
+
+table.visualizacao{		
+	border:1px solid black;
+	background: #d5d5d5;
+}
+
+.visualizacao th {
+	font: bold 12px Verdana;
+	color: #4f6b72;		
+	text-align: left;
+	padding: 3px 6px 3px 12px;
+	background: #CAE8EA;	
+}
+
+.visualizacao td {		
+	padding: 2px 2px 2px 40px;
+	color: black;			
+}
+
+.visualizacao span{
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+	/*font-weight: bold;*/		
+}
+
+tr.alt {
+	background: #d5d5d5;
+	color: black;	
+	/*color: #797268;*/	
+}
+
+tr.noalt {
+	background: #FFFFFF;
+	color: black;	
+}
+
+tr.spec {	
+	font: 10px Verdana;
+	background: #FFFFFF;
+}
+
+tr.specalt {
+	
+	background: #d5d5d5;
+	font: 10px Verdana;
+	color: black;
+		
+}
+
+.tituloMaior{
+	font-family: Verdana;	
+	font-weight: bold;
+	font-size: 18px;
+	color: #4f6b72;
+}
+
+.titulo{
+	font-family: Verdana;	
+	font-weight: bold;
+	font-size: 14px;
+	color: #233647;
+}
+
+.subtitulo{
+	font-family: Verdana;	
+	font-weight: bold;
+	font-size: 14px;
+	color: #4f6b72;
+}
+
+.tituloTermo{
+	font-family: Arial;	
+	font-weight: bold;
+	font-size: 14pt;
+	color: #000000;
+	text-align:justify;
+	text-transform: uppercase;		
+}
+
+.corpoTermo{
+	font-family: Arial;
+	font-size: 13pt;
+	color: #000000;
+	text-align:justify;		
+}
+
+.paragrafoTermo{
+	font-family: Arial;
+	font-size: 13pt;
+	color: #000000;
+	text-align:justify;
+	padding: 30px;		
+}
+
+span.sErro {
+	visibility: hidden;
+	color: red;
+	font-size: 18px;
+}	
+
+.horario{		
+	vertical-align:middle;
+	font-size: 9pt;
+	color: black;
+	width:30px;			
+}
+	
+table.horarios{		
+	border:1px solid black;
+	background: #d5d5d5;
+	width: 500px;	
+}
+
+.horarios th {		
+	padding: 2px 2px 2px 4px;
+	color: black;
+	font-weight: bold;			
+	text-align: center;
+	/*background: #CAE8EA;*/
+	background: #d5d5d5;
+}
+
+.horarios td {		
+	padding: 2px 2px 2px 4px;
+	color: black;			
+	text-align: center;
+}
+
+div.rodapeTermos{
+	font-style: italic;	
+	font-family: Arial;
+	font-size: 9pt;
+	color: #000000;
+	text-align:center;		
+}
+
+p.quebra { 
+	page-break-after: always; 
+}
+

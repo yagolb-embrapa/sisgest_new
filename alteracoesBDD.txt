@@ -1,0 +1,55 @@
+Criação da tabela "categorias"
+	id_categoria: integer, NOT NULL, PK
+		1
+		2
+		3
+		4
+	descricao: character varying(30)
+		Bolsista
+		Bolsista PIBIC
+		Estagiário
+		Estudante de Pós-Graduação
+
+Criação da tabela "status_estagiario"
+	id_status: integer, NOT NULL, PK
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+	descricao: character varying(30)
+		Vigente
+		Análise SGP
+		Análise SOF
+		Análise CHADM
+		Análise CHPD
+		Análise CHTT
+		Encerrado
+
+Criação da tabela "chefias"
+	id_categoria: integer, NOT NULL, PK
+		4
+		5
+		6
+	descricao: character varying(30)
+		Administrativa
+		Pesquisa e Desenvolvimento
+		Transferência de Tecnologia
+
+Tabela "users"
+	Criação da coluna "id_supervisor": integer, FK
+
+Tabela "estagiarios"
+	Criação da coluna "id_categoria": integer, FK
+	Criação da coluna "id_status": integer, FK
+	Criação da coluna "ext_rg": character varying(4)
+	Criação da coluna "ext_cpf": character varying(4)
+	Criação da coluna "ext_foto": character varying(4)
+	Criação da coluna "ext_atestado_matricula": character varying(4)
+	Criação da coluna "ext_plano_trabalho": character varying(4)
+	Criação da coluna "ext_declaracao": character varying(4)
+	Criação da coluna "id_chefia_associada": integer, FK
+	
+Dado permissao 0777 pra pasta do site.

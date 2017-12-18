@@ -1,0 +1,2 @@
+classes/LDAP.php
+	$host = "ldap01.cnptia.embrapa.br ldap02.cnptia.embrapa.br"; -> $host = "ldaps://ldap.cnptia.embrapa.br";

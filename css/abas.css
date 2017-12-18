@@ -1,0 +1,52 @@
+.conteudoAba {			
+        width: 750px;
+        top: 0px;
+        margin:0px;
+        padding:0px;        
+        display:none;        
+}
+
+ul.listaAbas{
+	list-style-type:none;
+	/*position:relative;*/
+	white-space:nowrap;                
+}
+
+.listaAbas li {	
+	margin:0px;
+	padding:0px;         
+	display:inline;         
+}
+
+.listaAbas a	{		
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana;
+	color:#339 ! important; 
+	background-color:#f6f6f6 ! important; 
+	border:1px solid black; 
+	text-decoration:none; 
+	padding:0 1.6em; 
+	border-left-width:1px solid black; 
+	border-bottom:1px solid black 
+}
+
+.listaAbas a:hover	{ 
+	color:#00c ! important; 
+	background-color:#d5d5d5 ! important 
+}
+
+.listaAbas a.active	{ 
+	color:#000000 ! important; 
+	background-color:#d5d5d5 ! important; 
+	border-color:black; 
+	border-left-width:1px; 
+	cursor:default; 
+	border-bottom:0px;	 
+	padding-top:2px; 
+	padding-bottom:1px 
+}
+
+li.firstchild a	{ 
+	border-left-width:1px 
+}
